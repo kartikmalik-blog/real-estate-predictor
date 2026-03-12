@@ -1,0 +1,6 @@
+employee_name,age,salary,department,email,start_date,valid_email
+Alice Smith,25,75000,IT,alice@company.com,2020-01-15,True
+Bob Jones,30,68000,HR,bob@company,,True
+Charlie Brown,26,82000,IT,charlie@company.com,,True
+Alice Smith,25,75000,IT,alice@company.com,2020-01-15,True
+Diana Prince,26,71000,UNKNOWN,diana@company.com,2018-12-01,True

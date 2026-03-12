@@ -1,0 +1,49 @@
+
+DATA CLEANING SUMMARY REPORT
+====================================
+
+Row Count:
+Original Rows: 7
+Cleaned Rows: 7
+
+Missing Values:
+Before Cleaning: 6
+After Cleaning: date             3
+product          0
+quantity         0
+price            0
+customer         0
+email            0
+Negative_Flag    0
+revenue          0
+Month            3
+valid_email      0
+dtype: int64
+
+Data Types Before Cleaning:
+date             datetime64[ns]
+product                  object
+quantity                float64
+price                   float64
+customer                 object
+email                      bool
+Negative_Flag              bool
+revenue                 float64
+Month                    object
+valid_email                bool
+dtype: object
+
+Data Types After Cleaning:
+date             datetime64[ns]
+product                  object
+quantity                float64
+price                   float64
+customer                 object
+email                      bool
+Negative_Flag              bool
+revenue                 float64
+Month                    object
+valid_email                bool
+dtype: object
+
+Outliers Found in Quantity Column: 0

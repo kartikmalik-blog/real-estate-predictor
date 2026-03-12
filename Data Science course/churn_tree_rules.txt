@@ -1,0 +1,61 @@
+CUSTOMER CHURN PREDICTION - DECISION RULES
+======================================================================
+
+|--- Support_Calls <= 3.50
+|   |--- Contract_Type <= 0.50
+|   |   |--- Total_Charges <= 2376.50
+|   |   |   |--- class: 0
+|   |   |--- Total_Charges >  2376.50
+|   |   |   |--- Support_Calls <= 1.50
+|   |   |   |   |--- Tenure_Months <= 24.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Tenure_Months >  24.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Support_Calls >  1.50
+|   |   |   |   |--- class: 1
+|   |--- Contract_Type >  0.50
+|   |   |--- Tenure_Months <= 21.50
+|   |   |   |--- Tenure_Months <= 12.50
+|   |   |   |   |--- Total_Charges <= 3541.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Total_Charges >  3541.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Tenure_Months >  12.50
+|   |   |   |   |--- class: 0
+|   |   |--- Tenure_Months >  21.50
+|   |   |   |--- Monthly_Charges <= 136.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- Monthly_Charges >  136.50
+|   |   |   |   |--- class: 0
+|--- Support_Calls >  3.50
+|   |--- Support_Calls <= 5.50
+|   |   |--- Contract_Type <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- Contract_Type >  0.50
+|   |   |   |--- Total_Charges <= 9314.50
+|   |   |   |   |--- Monthly_Charges <= 118.00
+|   |   |   |   |   |--- Monthly_Charges <= 108.50
+|   |   |   |   |   |   |--- Tenure_Months <= 29.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Tenure_Months >  29.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Monthly_Charges >  108.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Monthly_Charges >  118.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Total_Charges >  9314.50
+|   |   |   |   |--- class: 1
+|   |--- Support_Calls >  5.50
+|   |   |--- Support_Calls <= 7.50
+|   |   |   |--- Total_Charges <= 9177.50
+|   |   |   |   |--- Total_Charges <= 1174.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Total_Charges >  1174.50
+|   |   |   |   |   |--- Monthly_Charges <= 136.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Monthly_Charges >  136.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Total_Charges >  9177.50
+|   |   |   |   |--- class: 1
+|   |   |--- Support_Calls >  7.50
+|   |   |   |--- class: 1

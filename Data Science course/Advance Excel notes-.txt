@@ -1,0 +1,56 @@
+Advance Excel notes:- 
+Dynamic Arrays:Dynamic arrays make formulas to write easy and we have to write less formulas. And it makes the calculations fast too.
+1)-SEQUENCE- Generate an array of sequential numbers
+2)-RANDARRAY- Generate an array of random numbers
+3)- UNIQUE- Extract unique values from a list or range
+4)- SORT- Sort range by column
+5)-SORTBY- Sort range by another range or array
+6)-FILTER- Filter data and return matching records
+
+:-Introduction to Spills and Arrays:-
+In Excel that returns multiple values will spill these values directly onto the worksheet.
+
+with CSE(control, shift, Enter)array we can add multiple values at the same time The CSE array will be in the {} brackets so it will be easy define it. while with standard formula like V-loop Up we need to fill the data one by one.
+
+Dynamic Array is not like standard array where it only have one formula, dynamic array also do the calculation of multiple values so it is also a CSE array. with dynamic array the spill range can easily expand and contract depending on the data.
+
+[we use proper text property to make the data of table into proper form] 
+
+In Count-A function which we use to count the total things or person in a table when using with dynamic array it gives "#" symbol and to get proper count we divided it by 2.
+
+:-Extract and Count Unique Entries:-
+a)-  with unique we can skip the repeat values. Benefit of putting the values into the table is that it will get updates automatically. converting the list or data into the table is one of the essential part of dynamic array. we can combine the unique and count easily to get the result we want.
+b)- Unique vs Distinct
+The Unique function can do things it can extract unique values or it can extract distinct values.
+The distinct mean I won all entries in the source data one time. where unique means show everything in the source data that only appears one time.
+c)- Extracting unique values from multiple criteria:-
+converting the data into the table is the very first thing.
+d)- extract-unique values by column:-
+it is very simple extracting values by column argument compare to row.
+
+:- The SORT Function:-
+we can sort A->Z, Z->A or we can do the more complex sort. using the Data tab on ribbon. with sort function we are restricted to keep our data within one location, basically sort our data & place it anywhere. we can also use the sort function with other functions. so maybe we can extract unique list of values from range & sort that list of values. we can combine them both together because we are using functions.  
+For sorting the multiple values in a single formula we just need to use the {} brackets put the data inside of that. when we are combining the multiple columns of data together in sort function we will use the Text-Join function.
+
+:-SEQUENCE FUNCTION:-
+what sequence does it outputs the list of sequential numbers. we can specify how many rows, how many columns, or how many step values will that column going to have. In sequence we can also use the sequence for unstacking the values means to put them in order by using the indexing numbers.
+
+:-FILTER FUNCTION:-
+in the filter function we create a separate list of our data for making a drop down list function or any other function so it can be used for filtering the data. 
+When we use filter function with plus operator it means we are going to use the all formula.by using the "+" we can add as much parameters we wanted to add in the formula.
+We can also use the "*" operator which means "and" in excel for specifying the formula.
+it also have the "=" operator to be used for filtering the data, which means either both criteria is true or neither any of them true.
+It also have the "-" operator which clearly shows that it is going to use the only one condition at a time not both.
+
+:-Randarray function:-
+This is another new function of Excel new update. This allows to generate or randomize data. there is another function of this called "Rand-between" what it does it generates the random dates, salaries or etc numbers for data sheet.
+
+:-XLOOKUP to perform complex Look-Ups:-
+Basically XLOOK Up is much better in filtering and finding the data compared to VLOOP Up or Indexing and compared to them it is faster and easy too.
+
+:-XMATCH :-
+this is also another new dynamic array function of new Excel update
+XMATCH in Excel is a function that finds the position of a value in a range or array — similar to MATCH, but more powerful and flexible (it works with both vertical and horizontal ranges and supports reverse search).
+
+📘 Definition:
+=XMATCH(lookup value, lookup array, [match mode], [search mode])

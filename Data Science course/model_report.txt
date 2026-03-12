@@ -1,0 +1,21 @@
+======================================================================
+CUSTOMER CHURN PREDICTION - MODEL REPORT
+======================================================================
+
+Overall Accuracy: 91.67%
+Precision: 91.67%
+Recall: 100.00%
+F1-Score: 95.65%
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+        Stay       0.00      0.00      0.00         5
+       Churn       0.92      1.00      0.96        55
+
+    accuracy                           0.92        60
+   macro avg       0.46      0.50      0.48        60
+weighted avg       0.84      0.92      0.88        60
+
+
+Net Business Impact: $14,150

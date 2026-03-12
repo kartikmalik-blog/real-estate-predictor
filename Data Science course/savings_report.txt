@@ -1,0 +1,11 @@
+=== Monthly Savings Report ===
+Total Savings: $3800
+Average Monthly: $633.33
+
+Monthly Breakdown:
+Month 1: $500
+Month 2: $600
+Month 3: $550
+Month 4: $700
+Month 5: $650
+Month 6: $800

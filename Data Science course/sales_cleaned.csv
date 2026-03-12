@@ -1,0 +1,8 @@
+date,product,quantity,price,customer,email,Negative_Flag,revenue,Month,valid_email
+2024-01-15,Laptop,987.5,1000.0,ALICE,True,False,5000.0,January,False
+,Mouse,987.5,25.0,BOB,True,False,500.0,,False
+,Laptop,987.5,50.0,ALICE,True,False,250.0,,False
+2024-01-15,Keyboard,987.5,1000.0,CHARLIE,True,False,15000.0,January,False
+2024-04-05,Monitor,987.5,300.0,DIANA,True,False,900.0,April,False
+2024-05-01,Mouse,987.5,25.0,BOB,True,False,25.0,May,False
+,Laptop,987.5,1000.0,EVE,True,False,7000.0,,False

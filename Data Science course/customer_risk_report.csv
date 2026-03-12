@@ -1,0 +1,6 @@
+Tenure_Months,Monthly_Charges,Total_Charges,Contract_Type,Support_Tickets,Payment_Delays,Customer_ID,Churn_Prediction,Churn_Probability
+2,100,200,0,8,3,NEW_1,1,0.9999930291894884
+12,80,960,1,2,1,NEW_2,1,0.9448685109730236
+60,40,2400,2,0,0,NEW_3,0,0.027029071313024906
+24,95,2280,1,4,2,NEW_4,1,0.9974243445013471
+5,110,550,0,9,4,NEW_5,1,0.9999992714911445
